@@ -1,3 +1,1 @@
-"# SecuenciaCollatz" 
-"# SecuenciaCollatz" 
-"# SecuenciaCollatz" 
+# SecuenciaCollatz
