@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block breadcrumb %}
+    <div class="pageicon pull-left">
+        <i class="fa fa-home"></i>
+    </div>
+    <div class="media-body">
+        <ul class="breadcrumb">
+            <li><a href=""><i class="glyphicon glyphicon-home"></i> Home</a></li>
+        </ul>
+        <h4>Bienvenido al sistema de gestión Forestal</h4>
+    </div>
+{% endblock %}
+
+{% block navi_home %}
+<li class="active"><a href="/"><i class="fa fa-home"></i> <span>Home</span></a></li>
+{% endblock %}
+
+
+{% block content %}
+    <div class="panel-heading">
+        <h4 class="panel-title">Inicio</h4>
+        <p></p>
+    </div>
+    <div class="panel-body">
+        Hola <b>{{ user.first_name }}</b> de la empresa <b>{{user.empresa.nomfantasia_emp}}</b>
+        del grupo económico <b>{{ user.empresa.grupo_economico.nombre_grupo_economico }}</b>
+        Para comenzar, selecciona una opción del menú izquierdo.
+    </div>
+
+{% endblock %}
