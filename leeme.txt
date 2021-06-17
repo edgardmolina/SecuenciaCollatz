@@ -1,0 +1,4 @@
+Cd \Trabajo\Proyecto\Personal\Postulacion\SecuenciaCollatz << directorio donde yo cree el proyecto" >>
+env\Scripts\activate 			<< activo maquina virtual para proyecto >>
+python manage.py runserver		<< ejecuto proyecto >>
+
